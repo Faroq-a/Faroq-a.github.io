@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0; 
+}
+
+
+.navlogo {
+
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+
+
+.navlogo img {
+    width: 63px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+
+.navlist {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+.navlist li {
+    list-style: none;
+    padding: 0px 25px;
+
+}
+
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+
+.navlist li a:hover {
+    color: rgb(229, 218, 218);
+}
+
+
+.search {
+    width: 50%;
+    text-align: right;
+}
+
+
+#search {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.search-btn {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+}
+
+
+.burgerbtn {
+    display: none;
+}
+
+
+.burgerbtnline {
+    width: 28px;
+    background-color: white;
+    height: 2px;
+    margin: 5px 0px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0) url(/IMG/BG.jpeg);
+    background-size: cover;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80%;
+}
+
+
+.bigheading {
+    font-weight: 800;
+    font-size: 41px;
+}
+
+
+.smallheading {
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+
+.secondsection {
+    padding-left: 38px;
+    padding-bottom: 32px;
+
+}
+
+
+.secondsection img {
+    width: 130px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+
+.btn1 {
+    padding: 6px;
+    margin: 6px 0px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 12px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.btn2 {
+    padding: 6px;
+    margin: 6px 0px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 12px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.firstbox {
+    
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+
+.firstboxheading {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.firstboxdescription {
+    padding-top: 13px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.firstboxparas {
+    padding-right: 25px;
+}
+
+.firstboximg img {
+    width: 250px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.secondbox {
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+}
+
+.secondboxheading {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+.secondboxdescription {
+    padding-top: 13px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.secondboxparas {
+    padding-left: 25px;
+}
+
+.secondboximg img {
+    width: 250px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 48px;
+}
+
+
+.thirdbox {
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.thirdboxheading {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.thirdboxdescription {
+    padding-top: 13px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.thirdboxparas {
+    padding-right: 25px;
+}
+
+.thirdboximg img {
+    width: 250px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 8px;
+}
+
+
+.contactform {
+    background-color: whitesmoke;
+    height: 630px;
+    margin-top: 50px;
+}
+
+.contact {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.contactdownform {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 45px;
+    padding-right: 32px;
+
+}
+
+
+.inputforms {
+    width: 100%;
+    padding: 6px;
+    margin: 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.submittbtn {
+    color: black;
+    border: 2px solid gray;
+    margin-left: 15px;
+    background: white;
+}
+
+
+.aboutus{
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.about{
+    font-size: 32px;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+.aboutusboxes{
+    display: flex;
+}
+
+
+.ourvisionbox{
+    box-shadow: 2px 4px 6px 0px #999999;
+    padding: 20px 20px 70px 20px;
+    margin-top: 35px;
+    max-width: 50%;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.ourvisionheading{
+    max-width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ourvisionpara{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.ourmissionbox{
+    box-shadow: 2px 4px 6px 0px #999999;
+    padding: 20px 20px 70px 20px;
+    margin-top: 35px;
+    max-width: 50%;
+}
+
+.ourmissionheading{
+    max-width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ourmissionpara{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+h2{
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.whoweareparas{
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.whowearepara{
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.whowearepara1{
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+.footertext {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 15px;
+    background-color: gainsboro;
+    color: black;
+}
+
+

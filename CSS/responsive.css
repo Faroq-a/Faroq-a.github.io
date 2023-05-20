@@ -1,0 +1,89 @@
+
+
+@media only screen and (max-width:1200px) {
+
+    .navheight{
+        height: 36px;
+    }
+    .navlist {
+        flex-direction: column;
+    }
+
+    .navlist li {
+        padding-top: 16px;
+        
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .search-btn {
+        margin-top: 10px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        justify-content: left;
+    }
+    
+    .burgerbtn {
+        display: block;
+        align-self: end;
+     margin: 6px;
+    }
+
+    .visibility {
+        opacity: 0;
+    }
+
+    .mainbox {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .bigheading {
+        color: black;
+        text-align: center;
+    }
+
+    .smallheading {
+        color: black;
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+
+    .btn1 {
+        color: black;
+        border: 2px solid black;
+        justify-content: center;
+    }
+
+    .btn2 {
+        color: black;
+        border: 2px solid black;
+    }
+
+    .firstbox{
+        flex-direction: column;
+    }
+    .secondbox{
+        flex-direction: column;
+    }
+    .thirdbox{
+        flex-direction: column;
+    }
+    .secondsection {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .thirdboximg img {
+        margin-top: 25px;
+    }
+}
